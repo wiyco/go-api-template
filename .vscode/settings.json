@@ -1,3 +1,4 @@
+// https://code.visualstudio.com/docs/languages/go
 {
   "files.eol": "\n",
   "editor.formatOnSave": true,
@@ -13,5 +14,9 @@
   "[json]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": true
+  },
+  "go.useLanguageServer": true,
+  "gopls": {
+    "formatting.gofumpt": true
   }
 }
