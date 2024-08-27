@@ -8,6 +8,10 @@ REST API / [Gin](https://github.com/gin-gonic/gin) starter repository.
 
 ## Development
 
+```bash
+docker compose up
+```
+
 ## Modules
 
 1. [air](#1-air)
