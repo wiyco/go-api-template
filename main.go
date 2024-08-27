@@ -5,11 +5,6 @@ import (
 )
 
 func main() {
-	router := initRouter()
-	router.Run(":8080")
-}
-
-func initRouter() *gin.Engine {
 	router := gin.Default()
 
 	router.GET("/ping", func(c *gin.Context) {
@@ -18,5 +13,5 @@ func initRouter() *gin.Engine {
 		})
 	})
 
-	return router
+	router.Run(":8080")
 }
