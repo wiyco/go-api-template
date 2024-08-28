@@ -48,7 +48,12 @@ docker compose up
 ## Modules
 
 1. [air](#1-air)
+2. [gin](#2-gin)
 
 ### 1. [air](https://github.com/air-verse/air)
 
 Used for live-reloading (hot-reload) development.
+
+### 2. [gin](https://gin-gonic.com/docs/)
+
+API Framework.
