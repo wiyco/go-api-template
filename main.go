@@ -1,20 +1,9 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
+	"github.com/wiyco/go-api-template/cmd/api"
 )
 
 func main() {
-	router := gin.Default()
-
-	router.GET("/ping", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"message": "pong",
-		})
-	})
-
-	err := router.Run(":3000")
-	if err != nil {
-		panic(err)
-	}
+	api.InitApi()
 }
