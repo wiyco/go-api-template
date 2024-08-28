@@ -13,7 +13,7 @@ func main() {
 		})
 	})
 
-	err := router.Run(":8080")
+	err := router.Run(":3000")
 	if err != nil {
 		panic(err)
 	}
