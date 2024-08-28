@@ -39,7 +39,7 @@ curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/insta
 
 ### Running the app
 
-Run with Docker. Development with live-reloading (hot-reload).
+Run with Docker to develop with live-reloading (hot-reload).
 
 ```bash
 docker compose up
