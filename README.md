@@ -45,6 +45,8 @@ Run with Docker to develop with live-reloading (hot-reload).
 docker compose up
 ```
 
+API route is `localhost:8080` as the root.
+
 ## Modules
 
 1. [air](#1-air)
