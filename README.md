@@ -50,12 +50,22 @@ API route is `localhost:8080` as the root.
 ## Modules
 
 1. [air](#1-air)
-2. [gin](#2-gin)
+2. [godotenv](#2-godotenv)
+3. [gorm](#3-gorm)
+4. [uuid](#4-uuid)
 
 ### 1. [air](https://github.com/air-verse/air)
 
 Used for live-reloading (hot-reload) development.
 
-### 2. [gin](https://gin-gonic.com/docs/)
+### 2. [godotenv](https://github.com/joho/godotenv)
 
-API Framework.
+Environment variables library such as dotenv (e.g. `.env`).
+
+### 3. [gorm](https://gorm.io/docs)
+
+ORM library.
+
+### 4. [uuid](https://github.com/google/uuid)
+
+Used to generate UUIDs.
