@@ -8,6 +8,9 @@ WORKDIR /app
 # Install Air
 RUN go install github.com/air-verse/air@latest
 
+# Install Lefthook
+RUN go install github.com/evilmartians/lefthook@latest
+
 # Download Go modules
 COPY go.mod go.sum ./
 RUN go mod download
