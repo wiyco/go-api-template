@@ -5,7 +5,7 @@ pre-commit:
   commands:
     lint:
       glob: "*.{go}"
-      run: golangci-lint run {staged_files} --fix
+      run: 'golangci-lint run "{staged_files}" --fix'
       stage_fixed: true
       skip:
         - merge
