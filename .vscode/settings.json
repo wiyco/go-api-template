@@ -15,6 +15,14 @@
     "editor.tabSize": 2,
     "editor.insertSpaces": true
   },
+  "[yaml]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[markdown]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
   "go.useLanguageServer": true,
   "gopls": {
     "formatting.gofumpt": true
