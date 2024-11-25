@@ -1,10 +1,26 @@
 # go-api-template
 
-[Gin](https://github.com/gin-gonic/gin) starter repository.
+[Gin](https://github.com/gin-gonic/gin) starter repository 🐢
 
-## Docs
+## Tech Stack
 
-- [Gin](https://gin-gonic.com/docs)
+| Environments   | Languages  | Linters                                   | Frameworks  | Testing    | CI/CD                 |
+| :------------- | :--------- | :---------------------------------------- | :---------- | :--------- | :-------------------- |
+| ![docker-logo] | ![go-logo] | ![golangci-lint-logo]<br>![lefthook-logo] | ![gin-logo] | ![go-logo] | ![githubactions-logo] |
+
+[docker-logo]: https://img.shields.io/badge/-Docker-2496ED.svg?logo=nodedotjs&style=flat&logoColor=ffffff
+[golangci-lint-logo]: https://img.shields.io/badge/-golangci--lint-00ADD8.svg?logo=nodedotjs&style=flat&logoColor=ffffff
+[lefthook-logo]: https://img.shields.io/badge/-Lefthook-FF1E1E.svg?logo=lefthook&style=flat&logoColor=000000
+[go-logo]: https://img.shields.io/badge/-Go-00ADD8.svg?logo=go&style=flat&logoColor=ffffff
+[gin-logo]: https://img.shields.io/badge/-Gin-646CFF.svg?logo=gin&style=flat&logoColor=ffffff
+[githubactions-logo]: https://img.shields.io/badge/-GitHub%20Actions-2088FF.svg?logo=githubactions&style=flat&logoColor=ffffff
+
+### Other
+
+- [air](https://github.com/air-verse/air)
+- [godotenv](https://github.com/joho/godotenv)
+- [gorm](https://gorm.io/docs)
+- [uuid](https://github.com/google/uuid)
 
 ## Development
 
@@ -13,7 +29,7 @@
 
 ### Linter
 
-First, you need to install [`golangci-lint`](https://golangci-lint.run/).
+First, you need to install [`golangci-lint`](https://golangci-lint.run).
 
 Please run the following script according to your environment:
 
@@ -35,7 +51,7 @@ curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/insta
 
 > [!IMPORTANT]
 >
-> For Windows, use [Git Bash](https://git-scm.com/).
+> For _Windows_, use [Git Bash](https://git-scm.com).
 
 ### Running the app
 
@@ -46,26 +62,3 @@ docker compose up
 ```
 
 API route is `localhost:8080` as the root.
-
-## Modules
-
-1. [air](#1-air)
-2. [godotenv](#2-godotenv)
-3. [gorm](#3-gorm)
-4. [uuid](#4-uuid)
-
-### 1. [air](https://github.com/air-verse/air)
-
-Used for live-reloading (hot-reload) development.
-
-### 2. [godotenv](https://github.com/joho/godotenv)
-
-Environment variables library such as dotenv (e.g. `.env`).
-
-### 3. [gorm](https://gorm.io/docs)
-
-ORM library.
-
-### 4. [uuid](https://github.com/google/uuid)
-
-Used to generate UUIDs.
