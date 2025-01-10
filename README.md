@@ -27,6 +27,10 @@
 1. [Linter](#linter)
 2. [Running the app](#running-the-app)
 
+### VS Code
+
+Enable `gopls` to use [IntelliSense features](https://code.visualstudio.com/docs/languages/go).
+
 ### Linter
 
 First, you need to install [`golangci-lint`](https://golangci-lint.run).
