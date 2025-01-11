@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/wiyco/go-api-template/cmd/api"
+	"github.com/wiyco/go-api-template/cmd"
 )
 
 func main() {
-	api.InitApi()
+	cmd.InitApi()
 }

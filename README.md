@@ -1,26 +1,32 @@
 # go-api-template
 
-[Gin](https://github.com/gin-gonic/gin) starter repository 🐢
+REST API / [Fiber](https://github.com/gofiber/fiber) starter repository 🐢
 
 ## Tech Stack
 
 | Environments   | Languages  | Linters                                   | Frameworks  | Testing    | CI/CD                 |
 | :------------- | :--------- | :---------------------------------------- | :---------- | :--------- | :-------------------- |
-| ![docker-logo] | ![go-logo] | ![golangci-lint-logo]<br>![lefthook-logo] | ![gin-logo] | ![go-logo] | ![githubactions-logo] |
+| ![docker-logo] | ![go-logo] | ![golangci-lint-logo]<br>![lefthook-logo] | ![fiber-logo] | ![go-logo] | ![githubactions-logo] |
 
-[docker-logo]: https://img.shields.io/badge/-Docker-2496ED.svg?logo=nodedotjs&style=flat&logoColor=ffffff
-[golangci-lint-logo]: https://img.shields.io/badge/-golangci--lint-00ADD8.svg?logo=nodedotjs&style=flat&logoColor=ffffff
+[docker-logo]: https://img.shields.io/badge/-Docker-2496ED.svg?logo=docker&style=flat&logoColor=ffffff
+[golangci-lint-logo]: https://img.shields.io/badge/-golangci--lint-00ADD8.svg?logo=golangcilint&style=flat&logoColor=ffffff
 [lefthook-logo]: https://img.shields.io/badge/-Lefthook-FF1E1E.svg?logo=lefthook&style=flat&logoColor=000000
 [go-logo]: https://img.shields.io/badge/-Go-00ADD8.svg?logo=go&style=flat&logoColor=ffffff
-[gin-logo]: https://img.shields.io/badge/-Gin-646CFF.svg?logo=gin&style=flat&logoColor=ffffff
+<!-- [gin-logo]: https://img.shields.io/badge/-Gin-646CFF.svg?logo=gin&style=flat&logoColor=ffffff -->
+[fiber-logo]: https://img.shields.io/badge/-Fiber-00ACD7.svg?logo=gofiber&style=flat&logoColor=ffffff
 [githubactions-logo]: https://img.shields.io/badge/-GitHub%20Actions-2088FF.svg?logo=githubactions&style=flat&logoColor=ffffff
 
 ### Other
 
 - [air](https://github.com/air-verse/air)
-- [godotenv](https://github.com/joho/godotenv)
-- [gorm](https://gorm.io/docs)
-- [uuid](https://github.com/google/uuid)
+
+### Gin vs Fiber
+
+These articles are very helpful/informative.
+
+- https://medium.com/deno-the-complete-reference/go-gin-vs-fiber-hello-world-performance-6863e597b654
+- https://blog.stackademic.com/go-servers-benchmark-echo-fiber-and-gin-caadd9a78319
+- https://medium.com/deno-the-complete-reference/go-gin-vs-fiber-vs-echo-how-much-performance-difference-is-really-there-for-a-real-world-use-1ed29d6a3e4d
 
 ## Development
 
