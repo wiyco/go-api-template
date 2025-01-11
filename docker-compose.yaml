@@ -1,6 +1,6 @@
 # https://github.com/air-verse/air
 services:
-  web:
+  server:
     build:
       context: .
       # Correct the path to your Dockerfile
