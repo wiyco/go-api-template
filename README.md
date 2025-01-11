@@ -71,4 +71,5 @@ Run with Docker to develop with live-reloading (hot-reload).
 docker compose up
 ```
 
-API route is `localhost:8000` as the root.
+The API route's root is `localhost:8000`.
+You can execute the sample API (`ping`) at `localhost:8000/api/v1/ping`.
