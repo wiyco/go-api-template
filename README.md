@@ -65,4 +65,4 @@ Run with Docker to develop with live-reloading (hot-reload).
 docker compose up
 ```
 
-API route is `localhost:8080` as the root.
+API route is `localhost:8000` as the root.

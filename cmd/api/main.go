@@ -9,7 +9,7 @@ func InitApi() {
 
 	ping(router)
 
-	err := router.Run(":3000")
+	err := router.Run(":8000")
 	if err != nil {
 		panic(err)
 	}
