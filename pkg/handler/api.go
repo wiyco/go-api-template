@@ -49,7 +49,7 @@ func HandleAPIError(c *fiber.Ctx, err error) error {
 	return response
 }
 
-func createSuccessResponse(data interface{}) APIResponse {
+func CreateSuccessResponse(data interface{}) APIResponse {
 	return APIResponse{
 		Type:   "success",
 		Data:   data,
@@ -58,6 +58,6 @@ func createSuccessResponse(data interface{}) APIResponse {
 }
 
 func HandleAPISuccess(c *fiber.Ctx, data interface{}) error {
-	response := c.Status(fiber.StatusOK).JSON(createSuccessResponse(data))
+	response := c.Status(fiber.StatusOK).JSON(CreateSuccessResponse(data))
 	return response
 }
