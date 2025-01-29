@@ -10,7 +10,7 @@ REST API / [Fiber](https://github.com/gofiber/fiber) starter repository 🐢
 
 [docker-logo]: https://img.shields.io/badge/-Docker-2496ED.svg?logo=docker&style=flat&logoColor=ffffff
 [golangci-lint-logo]: https://img.shields.io/badge/-golangci--lint-00ADD8.svg?logo=golangcilint&style=flat&logoColor=ffffff
-[lefthook-logo]: https://img.shields.io/badge/-Lefthook-FF1E1E.svg?logo=lefthook&style=flat&logoColor=000000
+[lefthook-logo]: https://img.shields.io/badge/-Lefthook-FF1E1E.svg?logo=lefthook&style=flat&logoColor=ffffff
 [go-logo]: https://img.shields.io/badge/-Go-00ADD8.svg?logo=go&style=flat&logoColor=ffffff
 <!-- [gin-logo]: https://img.shields.io/badge/-Gin-646CFF.svg?logo=gin&style=flat&logoColor=ffffff -->
 [fiber-logo]: https://img.shields.io/badge/-Fiber-00ACD7.svg?logo=gofiber&style=flat&logoColor=ffffff
