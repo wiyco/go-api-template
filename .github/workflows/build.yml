@@ -3,17 +3,20 @@ on:
   pull_request:
     branches:
       - main
-    paths-ignore:
-      - "**/*.md"
-      - ".git*"
-      - ".vscode/**"
+    paths:
+      - "main.go"
+      - "cmd/**"
+      - "pkg/**"
+      - "go.mod"
+      - "go.sum"
+      - ".github/workflows/build.yml"
 
 jobs:
   build:
-    name: npm run build
+    name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: Clone repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Set up Go
@@ -23,6 +26,7 @@ jobs:
           cache: true
 
       - name: Install dependencies
-        run: go get .
-      - name: Build
+        run: go mod download
+
+      - name: Build go
         run: go build -v ./...

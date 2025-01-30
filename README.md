@@ -24,9 +24,9 @@ REST API / [Fiber](https://github.com/gofiber/fiber) starter repository 🐢
 
 These articles are very helpful/informative.
 
-- https://medium.com/deno-the-complete-reference/go-gin-vs-fiber-hello-world-performance-6863e597b654
-- https://blog.stackademic.com/go-servers-benchmark-echo-fiber-and-gin-caadd9a78319
-- https://medium.com/deno-the-complete-reference/go-gin-vs-fiber-vs-echo-how-much-performance-difference-is-really-there-for-a-real-world-use-1ed29d6a3e4d
+- [Go Gin vs Fiber: Hello World performance](https://medium.com/deno-the-complete-reference/go-gin-vs-fiber-hello-world-performance-6863e597b654)
+- [Go servers benchmark: Echo, Fiber, and Gin](https://blog.stackademic.com/go-servers-benchmark-echo-fiber-and-gin-caadd9a78319)
+- [Go — Gin vs Fiber vs Echo: How much performance difference is really there for a real-world use case?](https://medium.com/deno-the-complete-reference/go-gin-vs-fiber-vs-echo-how-much-performance-difference-is-really-there-for-a-real-world-use-1ed29d6a3e4d)
 
 ## Development
 
@@ -72,4 +72,5 @@ docker compose up
 ```
 
 The API route's root is `localhost:8000`.
+
 You can execute the sample API (`ping`) at `localhost:8000/api/v1/ping`.
