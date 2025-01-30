@@ -11,7 +11,7 @@ on:
 
 jobs:
   golangci:
-    name: npm run lint
+    name: golangci
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
