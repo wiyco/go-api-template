@@ -18,9 +18,9 @@ updates:
       day: "sunday"
       time: "10:00"
       timezone: "Asia/Tokyo"
-    ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+    # ignore:
+    #   - dependency-name: "*"
+    #     update-types: ["version-update:semver-major"]
 
   - package-ecosystem: "gomod"
     directory: "/"
@@ -30,11 +30,11 @@ updates:
       day: "sunday"
       time: "10:00"
       timezone: "Asia/Tokyo"
-    ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+    # ignore:
+    #   - dependency-name: "*"
+    #     update-types: ["version-update:semver-major"]
     groups:
       gomod:
-        update-types: ["major", "minor", "patch"]
+        update-types: ["minor", "patch"]
         patterns:
           - "*"
