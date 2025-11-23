@@ -2,7 +2,7 @@ module github.com/wiyco/go-api-template
 
 go 1.23
 
-require github.com/gofiber/fiber/v2 v2.52.9
+require github.com/gofiber/fiber/v2 v2.52.10
 
 require (
 	github.com/andybalholm/brotli v1.1.1 // indirect
