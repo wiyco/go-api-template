@@ -9,6 +9,7 @@ on:
       - "pkg/**"
       - "go.mod"
       - "go.sum"
+      - "Dockerfile"
       - ".github/workflows/build.yml"
 
 jobs:
